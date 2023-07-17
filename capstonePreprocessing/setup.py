@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="102003053",
+    name="capstonePreprocessing",
     version="1.1.0",
     description="It finds topsis for the given data in csv file",
     long_description=README,
@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    packages=["102003053"],
+    packages=["capstonePreprocessing"],
     include_package_data=True,
     install_requires=["pandas", "numpy"],
     entry_points={
